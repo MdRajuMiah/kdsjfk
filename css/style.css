@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.top_header-section{
+    background: #095dc7;
+    padding:10px 10px;
+}
+.top_header-section a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+}
+.top_header-section .main-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top_header-section .right-column {
+    text-align: right;
+}
+.top_header-section .email{
+    padding-right: 40px;
+}
+.top_header-section .right-column i{
+    padding-right: 10px;
+}
+.top_header-section .left-column i{
+    padding-right: 10px;
+}
